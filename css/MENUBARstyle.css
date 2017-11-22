@@ -1,0 +1,32 @@
+body
+{
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+#menu
+{
+  font-size: 14pt;
+  font-family: sans-serif;
+display: flex;
+justify-content: space-around;
+background-color: #aa00ff;
+position: fixed;
+top: 0;
+left: 0;
+
+width: 100%;
+}
+#menu a
+{
+  width: 25%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+#menu a:hover
+{
+  background-color: #7700ff;
+}
