@@ -19,3 +19,6 @@ h1{
 	width: 100;
 	font-size: 40px;
   }
+summary b{
+	font-size: 20px;
+}
