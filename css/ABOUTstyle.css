@@ -1,0 +1,21 @@
+main{
+  margin: 0 10px 0 10px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 16pt;
+  padding: 1% 5% 1% 5%;
+  }
+body{
+  display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+  background-color: #000000;
+	}
+h1{
+  font-weight: bold;
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-color: #b31aff;
+	width: 100;
+	font-size: 40px;
+  }
