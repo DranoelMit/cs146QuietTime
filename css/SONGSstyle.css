@@ -11,3 +11,18 @@ main {
 	background-color: #ffffff;
 	color: #000000;
 }
+
+h1 {
+	font-size: 40px;
+	border-bottom: 3px;
+	border-bottom-style: solid;
+	border-color: #aa00ff;
+}
+
+h5 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 20px;
+}
