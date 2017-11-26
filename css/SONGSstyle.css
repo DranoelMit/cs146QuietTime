@@ -16,3 +16,9 @@ h1{
 summary b{
 	font-size: 20px;
 }
+h5
+{
+  border-bottom: 3px;
+  border-bottom-style: solid;
+  border-color: #b31aff;
+}

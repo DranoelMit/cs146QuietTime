@@ -21,3 +21,9 @@ summary b
 {
 color: #000000;
 }
+.pics
+{
+  max-width: 300px;
+  max-height: 200px;
+  padding-left: 15px;
+}
