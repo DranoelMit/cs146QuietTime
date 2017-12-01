@@ -10,10 +10,6 @@ body
 {
   font-size: 14pt;
 }
-#menu a:hover
-{
-border-radius: none;
-}
 }
 @media only screen and (max-width: 400px)
 {

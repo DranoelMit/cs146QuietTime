@@ -4,8 +4,9 @@ margin-top:5%;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
-
+  background-color: #000000;
 }
+
 #menu
 {
   font-size: 14pt;
@@ -20,8 +21,8 @@ left: 0;
 
 width: 100%;
 box-shadow: 0px 0px 20px black;
-
 }
+
 #menu a
 {
   width: 25%;
@@ -38,4 +39,12 @@ box-shadow: 0px 0px 20px black;
 #home
 {
 font-size: 20pt;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+	color: white;
 }
