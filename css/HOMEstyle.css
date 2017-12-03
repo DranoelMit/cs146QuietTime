@@ -57,9 +57,20 @@ height:30px;
 }
 #postArea {
 	width: 100%;
-	padding: 2em;
+	padding: 1em;
 	display: grid;
-	grid-gap: 3em;
 	grid-auto-rows: auto;
-	overflow: auto;
+  overflow-wrap: break-word;
+
+
+}
+.post
+{
+font-size: 14pt;
+
+}
+.comment-body
+{
+  font-size: 12pt;
+  color: black;
 }

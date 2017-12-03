@@ -5,7 +5,7 @@ function addPost()
 red : "#ff0000",
 blue : "#0000ff",
 green : "#00ff00",
-yellow : "#ffff00",
+purple : "#aa00ff",
 black : "#000000",
 
 };
@@ -22,18 +22,32 @@ var newPost = document.createElement("DIV");
       newPost.setAttribute("class", "post");
 
   var nameTag = document.createElement("SPAN");
-      var tagText = document.createTextNode(name);
-      var tagText1 = document.createTextNode(email);
+      var tagText = document.createTextNode(name + "(" + email + "): ");
       nameTag.appendChild(tagText);
-      nameTag.appendChild(tagText1);
+
 
   var postComment = document.createElement("SPAN");
       var commentText = document.createTextNode(comment);
+      postComment.setAttribute("class", "comment-body");
       postComment.appendChild(commentText);
+      var breakline = document.createElement('hr');
 
   //Add all the pieces to the new post
   newPost.appendChild(nameTag);
   newPost.appendChild(postComment);
+  newPost.appendChild(breakline);
   newPost.style.color = col2Hex[color];
+  newPost.addEventListener("mouseover", function(e)
+{
+newPost.style.transition = "font-size .5s"
+newPost.style.fontSize = "20pt";
+
+});
+newPost.addEventListener("mouseout", function(e)
+{
+newPost.style.transition = "font-size .5s"
+newPost.style.fontSize = "14pt";
+
+});
   board.appendChild(newPost);
 }
