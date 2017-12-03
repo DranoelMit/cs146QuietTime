@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Quiet Time</title>
+
 <link rel="stylesheet" href="css/MAINstyle.css"/>
 <link rel="stylesheet" href="css/MENUBARstyle.css"/>
 <link rel="stylesheet" href="css/HOMEstyle.css"/>
@@ -33,23 +34,32 @@
 </main>
 <section id="discuss">
   <!--Comments are going to be placed here -->
-  <div id="postArea"> </div>
-    <form>
-      <label for="username"> Username: </label>
-      <input id="username" type="text"  ></input>
+  <section id="postArea"> </section>
 
-     <label for="email"> Email: </label>
-    <input id="email"  type="text"></input><br/>
+    <form onsubmit="addPost()">
+      <input id="username" type="text"  placeholder="Enter a Username" required></input>
 
-    <label for="comment"> Comment: </label>
-   <textarea id="comment" ></textarea>
+      <input id="email"  type="text" placeholder="Enter an email" required></input>
 
+<select id="dropColor">
+<option value="red"> Red </option>
+<option value="blue"> Blue </option>
+<option value="green"> Green </option>
+<option value="yellow"> Yellow </option>
+<option value="black"> Black </option>
+</select>
+
+      <textarea id="comment" placeholder="Leave a comment!" ></textarea>
+      <button>Send</button>
   </form>
 </section>
 
 <footer>
 		<p>Created and Honor Board protected by Group 4, Timothy Leonard, Tyler Kui, Anthony Ciccone, Ryan Gray, and Dagny Nies</p>
 </footer>
+
+<script src="js/formHandler.js"></script>
+
 </body>
 
 

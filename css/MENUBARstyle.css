@@ -4,7 +4,8 @@ margin-top:5%;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #000000;
+
+
 }
 
 #menu
@@ -41,7 +42,7 @@ box-shadow: 0px 0px 20px black;
 font-size: 20pt;
 }
 footer{
-    position: fixed;
+margin-top: 5px;
     left: 0;
     bottom: 0;
     width: 100%;
