@@ -34,6 +34,6 @@ var newPost = document.createElement("DIV");
   //Add all the pieces to the new post
   newPost.appendChild(nameTag);
   newPost.appendChild(postComment);
-newPost.setAttribute("color", col2Hex[color]);
+  newPost.style.color = col2Hex[color];
   board.appendChild(newPost);
 }
