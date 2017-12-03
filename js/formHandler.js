@@ -22,7 +22,7 @@ var newPost = document.createElement("DIV");
       newPost.setAttribute("class", "post");
 
   var nameTag = document.createElement("SPAN");
-      var tagText = document.createTextNode(name + "(" + email + "): ");
+      var tagText = document.createTextNode(name + " (" + email + "): ");
       nameTag.appendChild(tagText);
 
 
