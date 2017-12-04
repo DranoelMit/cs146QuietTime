@@ -37,7 +37,7 @@
   <h2> Comments: </h2>
   <section id="postArea"> </section>
 
-    <form onsubmit="addPost(); return false;">
+    <form id="commentForm" onsubmit="addPost(); return false;">
       <input id="username" type="text"  placeholder="Enter a Username" required></input>
 
       <input id="email"  type="text" placeholder="Enter an email" required></input>
@@ -51,7 +51,7 @@
 </select>
 
       <textarea id="comment" placeholder="Leave a comment!" ></textarea>
-      <button>Send</button>
+      <button id="submitButton">Send</button>
   </form>
 </section>
 

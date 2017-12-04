@@ -37,10 +37,11 @@ var newPost = document.createElement("DIV");
   newPost.appendChild(postComment);
   newPost.appendChild(breakline);
   newPost.style.color = col2Hex[color];
+
   newPost.addEventListener("mouseover", function(e)
 {
 newPost.style.transition = "font-size .5s"
-newPost.style.fontSize = "20pt";
+newPost.style.fontSize = "18pt";
 
 });
 newPost.addEventListener("mouseout", function(e)
@@ -50,4 +51,7 @@ newPost.style.fontSize = "14pt";
 
 });
   board.appendChild(newPost);
+  var forms = document.getElementById("commentForm");
+  forms.reset();
+
 }
