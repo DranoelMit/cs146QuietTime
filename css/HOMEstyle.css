@@ -74,21 +74,3 @@ font-size: 14pt;
   font-size: 12pt;
   color: black;
 }
-@keyframes squish
-{
-  0%
-  {
-  width 15%;
-  height: 30px;
-  }
-  50%
-  {
-    width: 10%;
-    height:20px;
-  }
-  100%
-  {
-    width: 15%;
-    height: 30px;
-  }
-}
